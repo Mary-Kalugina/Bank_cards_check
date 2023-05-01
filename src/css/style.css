@@ -1,3 +1,20 @@
-body {
-    color: #999;
+.error_text {
+    color: red;
+}
+
+.card {
+    width: 70px;
+    opacity: 0.3;
+}
+
+.active_card {
+    opacity: 1;
+}
+
+button:disabled {
+    background-color: gray;
+}
+
+button {
+    background-color: green;
 }

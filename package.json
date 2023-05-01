@@ -37,14 +37,16 @@
     "live-server": "^1.1.0",
     "mini-css-extract-plugin": "^2.7.5",
     "prettier": "^2.8.7",
-    "webpack": "^5.75.0",
+    "webpack": "^5.81.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.2",
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
     "-": "^0.0.1",
+    "chai": "^4.3.7",
     "glob-parent": "^6.0.2",
+    "puppeteer": "^19.11.1",
     "push-dir": "^0.4.1",
     "y": "^0.3.2"
   }
