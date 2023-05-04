@@ -2,4 +2,4 @@ dist
 coverage
 doc
 webpack.*.js
-src/js/cardCheck.test.js
+e2e.tests

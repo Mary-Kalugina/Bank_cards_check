@@ -18,7 +18,8 @@
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "e2e": "jest --testPathPattern=./e2e/ --runInBand"
   },
   "author": "coursar",
   "license": "MIT",
