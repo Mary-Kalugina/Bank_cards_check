@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/Mary-Kalugina/bank_cards",
   "repository": {
-    "url": "https://github.com/Mary-Kalugina/ahj_first_hw",
+    "url": "https://github.com/Mary-Kalugina/bank_cards",
     "type": "git"
   },
   "scripts": {
@@ -16,7 +17,8 @@
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
-    "show:dist": "live-server dist"
+    "show:dist": "live-server dist",
+    "deploy": "gh-pages -d build"
   },
   "author": "coursar",
   "license": "MIT",
@@ -31,6 +33,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^29.5.0",
