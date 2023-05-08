@@ -1,9 +1,10 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const webpack = require("webpack");
 const WebpackDevServer = require("webpack-dev-server");
 const config = require("../webpack.dev.js");
 
 const server = new WebpackDevServer(webpack(config), {});
-server.listen(8080, "localhost", (err) => {
+server.listen(9001, "localhost", (err) => {
   if (err) {
     return;
   }
